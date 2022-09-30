@@ -27,7 +27,7 @@ namespace Wpf_Chemeris_PR2
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Кнопка нажата");
+            MessageBox.Show("Состояние кнопки: " + (sender as System.Windows.Controls.Primitives.ToggleButton) .IsChecked);
         }
     }
 }
