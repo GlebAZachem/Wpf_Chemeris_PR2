@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel x:Name="stackPanel">
-            <CheckBox x:Name="checkBox1" IsThreeState="True" IsChecked="False" Height="20" Content="Неотмечено"/>
-            <CheckBox x:Name="checkBox2" IsThreeState="True" IsChecked="True" Height="20" Content="Отмечено"/>
-            <CheckBox x:Name="checkBox3" IsThreeState="True" IsChecked="{x:Null}" Height="20" Content="Неопределенно"/>
-        </StackPanel>
+        <ListBox SelectedIndex="1">
+            <ListBoxItem Content="Red"/>
+            <ListBoxItem Content="Green"/>
+            <ListBoxItem Content="Blue"/>
+        </ListBox>
     </Grid>
 </Window>

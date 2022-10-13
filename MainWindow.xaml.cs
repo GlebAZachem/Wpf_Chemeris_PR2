@@ -29,5 +29,10 @@ namespace Wpf_Chemeris_PR2
         {
             MessageBox.Show("Состояние кнопки: " + (sender as System.Windows.Controls.Primitives.ToggleButton) .IsChecked);
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
