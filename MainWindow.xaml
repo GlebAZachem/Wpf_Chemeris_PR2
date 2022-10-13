@@ -7,14 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ToolBar>
-            <Button>
-                <Image Width="30" Height="25" Source="https://pngimg.com/uploads/folder/folder_PNG8772.png"></Image>
-            </Button>
-            <Separator/>
-            <Button>
-                <Image Width="30" Height="25" Source="D:\vs\Wpf_Chemeris_PR2\123.png"/>
-            </Button>
-            </ToolBar>
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock Text="Сохранение документа..."/>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock Text="Подключение к БД: OK"/>
+            </StatusBarItem>
+        </StatusBar>
     </Grid>
 </Window>
