@@ -37,7 +37,7 @@ namespace Wpf_Chemeris_PR2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button1.Background = Brushes.Green;
+
         }
     }
 }
