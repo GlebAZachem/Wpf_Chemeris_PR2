@@ -7,10 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox SelectedIndex="1">
-            <ListBoxItem Content="Red"/>
-            <ListBoxItem Content="Green"/>
-            <ListBoxItem Content="Blue"/>
-        </ListBox>
+        <Menu Background="White" BorderBrush="Navy" BorderThickness="1">
+            <MenuItem Header="=Файл">
+                <MenuItem Header="_Открыть"/>
+                <MenuItem Header="_Сохранить"/>
+                <Separator />
+                <MenuItem Header="Закрыть"/>
+            </MenuItem>
+            <MenuItem Header="_О программе"/>
+        </Menu>
     </Grid>
 </Window>
