@@ -1,0 +1,14 @@
+﻿<Window x:Class="Wpf_Chemeris_PR2.Window16"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Chemeris_PR2"
+        mc:Ignorable="d"
+        Title="Window16" Height="450" Width="800">
+    <Grid>
+        <Button Width="60" Height="30" Content="Цвет" FontSize="20" Foreground="red" FontWeight="Bold"/>
+        <TextBlock>
+            <Run FontWeight="Bold">Однажды в студеную зимнюю пору</Run> Я из лесу вышел <LineBreak/> Был сильный мороз</TextBlock>
+    </Grid>
+</Window>

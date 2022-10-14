@@ -5,15 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Chemeris_PR2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Gleb" Height="450" Width="800">
     <Grid>
-        <StackPanel>
-            <Button x:Name="button1" Padding=" 50 30 0 40" HorizontalContentAlignment="Left">
-                Hello World
-            </Button>
-            <Button x:Name="button2" Padding=" 50 30 0 40" HorizontalContentAlignment="Center">
-                Hello World
-            </Button>
-        </StackPanel>
+        <Button Content="Пример 1" HorizontalAlignment="Left" Margin="25,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click"/>
+        <Button Content="Пример 2" HorizontalAlignment="Left" Margin="130,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_1"/>
+        <Button Content="Пример 3" HorizontalAlignment="Left" Margin="230,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_2"/>
+        <Button Content="Пример 4" HorizontalAlignment="Left" Margin="330,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_3"/>
+        <Button Content="Пример 5" HorizontalAlignment="Left" Margin="430,24,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_4"/>
+        <Button Content="Пример 6" HorizontalAlignment="Left" Margin="530,24,0,0" VerticalAlignment="Top" Height="44" Width="86" Click="Button_Click_5"/>
+        <Button Content="Пример 7" HorizontalAlignment="Left" Margin="630,24,0,0" VerticalAlignment="Top" Height="44" Width="86" Click="Button_Click_6"/>
+        <Button Content="Пример 8" HorizontalAlignment="Left" Margin="25,90,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_7"/>
+        <Button Content="Пример 9" HorizontalAlignment="Left" Margin="130,90,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_8"/>
+        <Button Content="Пример 10" HorizontalAlignment="Left" Margin="230,90,0,0" VerticalAlignment="Top" Height="44" Width="84" Click="Button_Click_9"/>
+        <Button Content="Пример 11" HorizontalAlignment="Left" Margin="330,90,0,0" VerticalAlignment="Top" Height="44" Width="86" Click="Button_Click_10"/>
+        <Button Content="Пример 12" HorizontalAlignment="Left" Margin="430,90,0,0" VerticalAlignment="Top" Height="44" Width="86" Click="Button_Click_11"/>
+        <Button Content="Пример 13" HorizontalAlignment="Left" Margin="530,90,0,0" VerticalAlignment="Top" Height="44" Width="86" Click="Button_Click_12"/>
+        <Button Content="Пример 14" HorizontalAlignment="Left" Margin="630,90,0,0" VerticalAlignment="Top" Height="44" Width="86" Click="Button_Click_13"/>
+        <Button Content="Пример 15" HorizontalAlignment="Left" Margin="25,151,0,0" VerticalAlignment="Top" Height="44" Width="85" Click="Button_Click_14"/>
+        <Button Content="Пример 16" HorizontalAlignment="Left" Margin="130,151,0,0" VerticalAlignment="Top" Height="44" Width="86"/>
+        <Button Content="Самостоятельная работа" HorizontalAlignment="Left" Margin="232,151,0,0" VerticalAlignment="Top" Height="44" Width="284" Click="Button_Click_16"/>
     </Grid>
 </Window>
